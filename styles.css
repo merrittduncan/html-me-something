@@ -1,0 +1,23 @@
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin: 25px;
+    clear:both;
+}
+p {
+    font-size: 14px;
+}
+article {
+    margin: 30px;
+
+}
+img {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ponge{
+    display: block;
+    float:left;
+}
