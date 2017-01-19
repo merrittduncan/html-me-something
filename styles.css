@@ -1,15 +1,73 @@
+html{
+    background-color: #FCEFF9;
+}
+body{
+    margin:0;
+}
+header{
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    width: 12%;
+    padding:0;
+    margin:0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
+    background-color: #454851;
+    font-size:14px;
+    text-transform: uppercase;
+}
+main{
+    width:88%;
+    height:auto;
+    position: absolute;
+    right:0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
+    font-size:14px;
+    color:#454851;
+}
+p {
+    padding:5px;
+}
 footer {
     text-align: center;
     font-size: 12px;
     margin: 25px;
     clear:both;
 }
-p {
-    font-size: 14px;
-}
 article {
-    margin: 30px;
-
+    margin: 5% 35% 0% 10%;
+    padding:0px 0px 10px 0px;
+    border-style: double;
+    border-width: medium;
+    border-color: #95D7AE #7BAE7F #7BAE7F #95D7AE;
+    background-color: white;
+}
+article p{
+    text-indent: 35px;
+    padding: 0px 12px;
+}
+ul{
+    padding:0px;
+    margin:100px 0px;
+    list-style-type: none;
+    text-align: center;
+}
+li a {
+    display: block;
+    color: #95D7AE;
+    padding: 10px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+}
+#snails{
+    border-style: double;
+    border-width:0px 0px 1px 0px;
+    color: #95D7AE;
+}
+li a:hover {
+    background-color: #555;
+    color: #FCEFF9;
 }
 img {
     padding: 10px;
@@ -17,7 +75,14 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-.ponge{
-    display: block;
+#ponge{
+    display:block;
     float:left;
+}
+h4{
+    text-transform: uppercase;
+    margin:20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
 }
